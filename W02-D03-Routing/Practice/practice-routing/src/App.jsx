@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Link to={'/home'}></Link>
-      <Link to={'/number'}></Link>
-      <Link to={'/word'}></Link>
-      <Link to={'/color'}></Link>
+      <Link to={'/:number'}></Link>
+      <Link to={'/:word'}></Link>
+      <Link to={'/:word/:color/:background'}></Link>
 
 
 
